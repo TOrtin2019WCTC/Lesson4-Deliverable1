@@ -18,7 +18,7 @@ public class Main {
 
        LocalDate newReleaseDate = LocalDate.of(
                rattleAndHum.plusYears(diff.getYears()).getYear(),
-               rattleAndHum.plusMonths(diff.getMonths()).getDayOfMonth(),
+               rattleAndHum.plusMonths(diff.getMonths()).getMonth(),
                rattleAndHum.plusDays(diff.getDays()).getDayOfMonth());
 
 
